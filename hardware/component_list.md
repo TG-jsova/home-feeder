@@ -59,17 +59,15 @@
 
 ### Specific Product Links
 
-#### Load Cell & HX711
-- [5kg Load Cell + HX711 Kit](https://www.amazon.com/Weight-Sensor-HX711-Amplifier-5kg/dp/B07F1CJ8K8)
-- [Alternative: 10kg Load Cell](https://www.adafruit.com/product/4540)
+For detailed Amazon links and shopping recommendations, see [amazon_links.md](amazon_links.md).
 
-#### Servo Motor
-- [SG90 Micro Servo](https://www.amazon.com/SG90-Micro-Servo-Motor-Arduino/dp/B07F1CJ8K8)
-- [MG996R (Stronger alternative)](https://www.amazon.com/MG996R-Digital-Servo-Motor-Arduino/dp/B07F1CJ8K8)
-
-#### LCD Display
-- [16x2 I2C LCD](https://www.amazon.com/16x2-LCD-Display-I2C-Interface/dp/B07F1CJ8K8)
-- [Alternative: OLED Display](https://www.adafruit.com/product/931)
+#### Key Components Search Terms
+- **Load Cell**: Search "5kg load cell HX711 weight sensor"
+- **Servo**: Search "SG90 micro servo 5 pack"
+- **LCD Display**: Search "16x2 LCD I2C display Arduino"
+- **Mason Jars**: Search "wide mouth mason jars 32oz 12 pack"
+- **Raspberry Pi**: Search "Raspberry Pi 4 4GB"
+- **Power Supply**: Search "Raspberry Pi 4 power supply official"
 
 ## Total Cost Estimate
 
