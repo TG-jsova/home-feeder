@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Database Interface
-Handles SQLite database operations for event logging and data storage
+Handles SQLite database operations for event logging and data storage.
 """
 
 import sqlite3
