@@ -1,0 +1,93 @@
+{
+  "weight_sensor": {
+    "dout_pin": 5,
+    "sck_pin": 6,
+    "calibration_factor": 2280.0,
+    "tare_samples": 10,
+    "reading_samples": 3,
+    "smoothing_samples": 10,
+    "stability_threshold": 0.05
+  },
+  "servo": {
+    "pin": 18,
+    "min_angle": 0,
+    "max_angle": 180,
+    "feeding_angle": 90,
+    "frequency": 50,
+    "portion_grams_per_second": 10,
+    "min_dispense_time": 0.5,
+    "max_dispense_time": 5.0
+  },
+  "feeding_schedules": [
+    {
+      "time": "08:00",
+      "portion": 50,
+      "enabled": true,
+      "name": "Breakfast"
+    },
+    {
+      "time": "12:00",
+      "portion": 50,
+      "enabled": true,
+      "name": "Lunch"
+    },
+    {
+      "time": "18:00",
+      "portion": 50,
+      "enabled": true,
+      "name": "Dinner"
+    }
+  ],
+  "weight_thresholds": {
+    "min_cat_weight": 2.0,
+    "max_cat_weight": 8.0,
+    "tare_threshold": 0.1,
+    "cat_detection_delay": 2.0
+  },
+  "web_interface": {
+    "host": "0.0.0.0",
+    "port": 5000,
+    "debug": false,
+    "secret_key": "change-this-secret-key-in-production",
+    "session_timeout": 3600
+  },
+  "database": {
+    "path": "cat_feeder.db",
+    "backup_interval_hours": 24,
+    "cleanup_days": 30,
+    "max_log_size_mb": 100
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "cat_feeder.log",
+    "max_size_mb": 10,
+    "backup_count": 5,
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  },
+  "safety": {
+    "emergency_stop_pin": 27,
+    "max_daily_feedings": 10,
+    "min_feeding_interval_minutes": 120,
+    "max_portion_grams": 200,
+    "low_food_alert_threshold": 100
+  },
+  "notifications": {
+    "enabled": false,
+    "email": {
+      "smtp_server": "smtp.gmail.com",
+      "smtp_port": 587,
+      "username": "",
+      "password": "",
+      "recipients": []
+    },
+    "webhook": {
+      "url": "",
+      "enabled": false
+    }
+  },
+  "maintenance": {
+    "auto_restart_hours": 168,
+    "health_check_interval_minutes": 30,
+    "calibration_reminder_days": 30
+  }
+} 
